@@ -1,0 +1,24 @@
+{
+  "name": "s2.1-bootstrap-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorGonPe/S2.1-Bootstrap-SASS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorGonPe/S2.1-Bootstrap-SASS/issues"
+  },
+  "homepage": "https://github.com/VictorGonPe/S2.1-Bootstrap-SASS#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.84.0"
+  }
+}
