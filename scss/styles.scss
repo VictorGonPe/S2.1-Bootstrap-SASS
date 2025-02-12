@@ -1,0 +1,16 @@
+// Importar Bootstrap (usa las variables personalizadas antes de importarlo)
+@import "variables"; 
+
+// Importar Bootstrap desde node_modules
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Estilos personalizados
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: $primary;
+    text-align: center;
+}
