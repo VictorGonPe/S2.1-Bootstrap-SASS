@@ -9,15 +9,32 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
 }
-
+/*
 h1 {
     color: $primary;
     text-align: center;
-}
+}*/
 
 .custom-py {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
+
+.text-custom {
+    font-size: 0.7rem;
+}
+
+
+// Personalizar botones secundarios en hover
+.btn-secondary {
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+        background-color: transparent;
+        color: $secondary !important; // Usa el color secundario definido en variables.scss
+        border: 2px solid $secondary;
+    }
+}
+
