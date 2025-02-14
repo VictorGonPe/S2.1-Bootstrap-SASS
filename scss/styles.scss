@@ -16,15 +16,9 @@ h1 {
     //padding-left: 1.3rem;
 }
 
-h2 {
+h2, h5, .version {
     font-weight: bold;
 }
-
-h6 {
-    font-size: 1rem;
-    font-weight: bold; // También puedes usar 700
-}
-
 
 .custom-p {
     padding-top: 2.5rem;
@@ -57,7 +51,7 @@ h6 {
 }
 
 .fs-button {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .btn {
@@ -68,7 +62,11 @@ h6 {
 #imageSBM {
     position: relative;
     transform: scale(1.05);
-    z-index: 1;
+}
+
+#imageBIOC {
+    position: relative;
+    transform: scale(1);
 }
 
 
@@ -86,3 +84,14 @@ h6 {
     z-index: 0; //Permanece atras
 }
 
+#box-2 {
+    top: 117%;
+    right: auto;
+    left: -100%;
+    border-top-right-radius: 180px; 
+    border-bottom-right-radius: 170px; 
+}
+
+.version {
+    color: darkgrey;
+}

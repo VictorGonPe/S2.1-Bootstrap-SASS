@@ -11900,8 +11900,6 @@ textarea.form-control-lg {
 .title-item h6, .title-item .h6 {
   font-size: 1rem;
   font-weight: bold;
-  text-align: center;
-  transition: color 0.3s ease-in-out;
 }
 .title-item h6:hover, .title-item .h6:hover {
   color: black;
@@ -11914,7 +11912,7 @@ textarea.form-control-lg {
   width: 0%;
   height: 3px;
   background-color: red;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   transform: translateX(-50%);
   z-index: 1;
 }
@@ -11931,12 +11929,7 @@ h1, .h1 {
   transform: scale(1.1);
 }
 
-h2, .h2 {
-  font-weight: bold;
-}
-
-h6, .h6 {
-  font-size: 1rem;
+h2, .h2, h5, .h5, .version {
   font-weight: bold;
 }
 
@@ -11971,7 +11964,7 @@ h6, .h6 {
 }
 
 .fs-button {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .btn {
@@ -11981,7 +11974,11 @@ h6, .h6 {
 #imageSBM {
   position: relative;
   transform: scale(1.05);
-  z-index: 1;
+}
+
+#imageBIOC {
+  position: relative;
+  transform: scale(1);
 }
 
 .background-box {
@@ -11996,6 +11993,18 @@ h6, .h6 {
   border-top-left-radius: 180px;
   border-bottom-left-radius: 170px;
   z-index: 0;
+}
+
+#box-2 {
+  top: 117%;
+  right: auto;
+  left: -100%;
+  border-top-right-radius: 180px;
+  border-bottom-right-radius: 170px;
+}
+
+.version {
+  color: darkgrey;
 }
 
 /*# sourceMappingURL=styles.css.map */
