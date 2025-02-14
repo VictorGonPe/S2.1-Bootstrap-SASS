@@ -1,0 +1,39 @@
+
+.btn-secondary {
+    transition: all 0.1s ease-in-out;
+    border: 2px solid $secondary;
+    
+    &:hover {
+        background-color: transparent;
+        color: $secondary !important;
+        border: 2px solid $secondary;
+    }
+}
+
+.btn-primary {
+    transition: all 0.1s ease-in-out;
+    border: 2px solid $primary;
+    
+    &:hover {
+        background-color: transparent;
+        color: $primary !important;
+        border: 2px solid $primary;
+    }
+}
+
+.btn-info {
+    transition: all 0.1s ease-in-out;
+    border: 2px solid $info;
+    
+    &:hover {
+        background-color: transparent;
+        border: 2px solid $dark-grey;
+    }
+}
+
+.title-item {
+
+    &.active h6 {
+        border-bottom: 4px solid rgb(255, 38, 0); // Solo el h6 activo tendrá el borde naranja
+    }
+}

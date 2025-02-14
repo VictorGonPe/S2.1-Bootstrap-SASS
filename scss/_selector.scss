@@ -1,0 +1,50 @@
+.selector-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; // Ajusta el ancho máximo si es necesario
+    margin: 0 auto;
+}
+
+// Línea gris (fija, del ancho del `div` padre)
+.underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; // Toda la anchura del padre
+    height: 1px;
+    background-color: #ccc; // Línea gris
+}
+
+// Línea roja animada (se moverá con `hover`)
+.title-item {
+    position: relative;
+    cursor: pointer;
+    
+    h6 {
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        transition: color 0.3s ease-in-out;
+        
+        &:hover {
+            color: black; // Resaltar texto al hacer hover
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -25px; // Ajustar la posición de la línea
+        left: 50%;
+        width: 0%;
+        height: 3px;
+        background-color: red;
+        transition: all 0.3s ease-in-out;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+
+    &:hover::after {
+        width: 14rem; // La línea roja se expande en hover
+    }
+}

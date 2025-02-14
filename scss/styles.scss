@@ -1,8 +1,9 @@
 // Importar Bootstrap (usa las variables personalizadas antes de importarlo)
 @import "variables"; 
-
 // Importar Bootstrap desde node_modules
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "buttons";
+@import "selector";
 
 // Estilos personalizados
 body {
@@ -48,28 +49,19 @@ h6 {
     padding-right: 7rem;
 }
 
-.text-custom {
+.p-selector {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+}
+
+.fs-button {
     font-size: 0.8rem;
 }
 
 .btn {
     font-weight: bold;
-}
-
-.fs-button {
-    font-size: 0.9rem;
-}
-
-// Personalizar botones secundarios en hover
-.btn-secondary {
-    transition: all 0.1s ease-in-out;
-    border: 2px solid $secondary;
-    
-    &:hover {
-        background-color: transparent;
-        color: $secondary !important; // Usa el color secundario definido en variables.scss
-        border: 2px solid $secondary;
-    }
 }
 
 
@@ -78,7 +70,6 @@ h6 {
     transform: scale(1.05);
     z-index: 1;
 }
-
 
 
 .background-box {
