@@ -7,53 +7,68 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="bg-light custom-py">
-      <div class="container d-flex justify-content-between align-items-center">
+    <header class="bg-light custom-p">
+      <div class="container d-flex justify-content-between p-left p-right">
           
           <div class="logo">
-              <img src="img/logo-bookmark.svg" alt="Logo" width="130">
+              <img src="img/logo-bookmark.svg" alt="Logo" width="150">
           </div>
 
           <nav>
-              <ul class="nav text-custom" gap-3>
+              <ul class="nav text-custom gap-4">
                   <li class="nav-item px-1"><a href="#" class="nav-link text-black">FEATURES</a></li>
                   <li class="nav-item px-1"><a href="#" class="nav-link text-black">PRICING</a></li>
                   <li class="nav-item px-1"><a href="#" class="nav-link text-black">CONTACT</a></li>
                   <li class="nav-item px-1">
-                      <a href="#" class="btn btn-secondary text-white text-custom px-4 shadow">LOGIN</a>
+                      <a href="#" class="btn btn-secondary text-white text-custom px-4 shadow fs-button">LOGIN</a>
                   </li>
               </ul>
           </nav>
       </div>
     </header>
 
-    <main class="custom-py">
+    <main>
         <section class="container my-5">
-            <div class="row align-items-center">
-                
-                <div class="col-md-6">
-                    <h1 class="fw-bold">A Simple Bookmark Manager</h1>
-                    <p class="lead text-muted opacity-75 fs-6">A clean and simple interface to organize your favorite websites. Open a new browser tanb and see your sites load instantly. Try it for free.</p>
-                    <div class="d-flex gap-3">
-                        <a href="#" class="btn btn-primary shadow">Get in on Chrome</a>
-                        <a href="#" class="btn shadow">Get it on Firefox</a>
+                <div class="row align-items-center">    
+                    <div class="col-md-6  p-left">
+                        <h1 class="fw-bold px-4">A Simple Bookmark Manager</h1>
+                        <p class="lead text-muted opacity-75 fs-5 py-3">A clean and simple interface to organize your favorite websites. Open a new browser tanb and see your sites load instantly. Try it for free.</p>
+                        <div class="d-flex gap-3 py-1">
+                            <a href="#" class="btn btn-primary shadow px-4 fs-button py-3">Get in on Chrome</a>
+                            <a href="#" class="btn btn-info text-muted shadow px-4 fs-button py-3">Get it on Firefox</a>
+                        </div>
                     </div>
-                </div>
-    
-            
-                <div class="col-md-6 text-center">
-                    <img src="img/illustration-hero.svg" alt="Imagen" class="img-fluid">
-                </div>
 
-            </div>
+                    <div class="col-md-6 py-4 position-relative">
+                        <div class="background-box"></div>
+                        <img src="img/illustration-hero.svg" alt="Imagen" class="img-fluid" id="imageSBM">
+                    </div>
+
+                </div>
+                
         </section>
 
-        <section class="container py-5">
+        <section class="container py-5 col-md-6 col-lg-6 px-1 text-center">
             <div class="row">
-                <div class="col">
-                    <h3>Features</h3>
-                    <p class="lead text-muted opacity-75 fs-6">Our aim is to make ot quick and easy for you to acces your favourite websites. Your booksmark sync between you devices so you can acces them on the go.</p>
+                <div class="column">
+                    <h2>Features</h2>
+                    <p class="lead text-muted opacity-75 fs-5 py-2 p-features">Our aim is to make ot quick and easy for you to acces your favourite websites. Your booksmark sync between you devices so you can acces them on the go.</p>     
                 </div>
+                <div class="d-flex justify-content-between text-muted py-5">
+                    <div class="title-item active">
+                        <h6>Simple Bookmarking</h6>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="title-item">
+                        <h6>Speedy Searching</h6>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="title-item">
+                        <h6>Easy Sharing</h6>
+                        <div class="underline"></div>
+                    </div>
+                </div>
+
             </div>
         </section>
 

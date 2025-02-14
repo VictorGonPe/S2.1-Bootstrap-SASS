@@ -32,7 +32,7 @@
   --bs-primary: #5266df;
   --bs-secondary: #f55758;
   --bs-success: #198754;
-  --bs-info: #0dcaf0;
+  --bs-info: rgb(236, 236, 236);
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
@@ -40,7 +40,7 @@
   --bs-primary-rgb: 82, 102, 223;
   --bs-secondary-rgb: 245, 87, 88;
   --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
+  --bs-info-rgb: 236, 236, 236;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
@@ -48,7 +48,7 @@
   --bs-primary-text-emphasis: rgb(32.8, 40.8, 89.2);
   --bs-secondary-text-emphasis: rgb(98, 34.8, 35.2);
   --bs-success-text-emphasis: rgb(10, 54, 33.6);
-  --bs-info-text-emphasis: rgb(5.2, 80.8, 96);
+  --bs-info-text-emphasis: rgb(94.4, 94.4, 94.4);
   --bs-warning-text-emphasis: rgb(102, 77.2, 2.8);
   --bs-danger-text-emphasis: rgb(88, 21.2, 27.6);
   --bs-light-text-emphasis: #495057;
@@ -56,7 +56,7 @@
   --bs-primary-bg-subtle: rgb(220.4, 224.4, 248.6);
   --bs-secondary-bg-subtle: rgb(253, 221.4, 221.6);
   --bs-success-bg-subtle: rgb(209, 231, 220.8);
-  --bs-info-bg-subtle: rgb(206.6, 244.4, 252);
+  --bs-info-bg-subtle: rgb(251.2, 251.2, 251.2);
   --bs-warning-bg-subtle: rgb(255, 242.6, 205.4);
   --bs-danger-bg-subtle: rgb(248, 214.6, 217.8);
   --bs-light-bg-subtle: rgb(251.5, 252, 252.5);
@@ -64,7 +64,7 @@
   --bs-primary-border-subtle: rgb(185.8, 193.8, 242.2);
   --bs-secondary-border-subtle: rgb(251, 187.8, 188.2);
   --bs-success-border-subtle: rgb(163, 207, 186.6);
-  --bs-info-border-subtle: rgb(158.2, 233.8, 249);
+  --bs-info-border-subtle: rgb(247.4, 247.4, 247.4);
   --bs-warning-border-subtle: rgb(255, 230.2, 155.8);
   --bs-danger-border-subtle: rgb(241, 174.2, 180.6);
   --bs-light-border-subtle: #e9ecef;
@@ -144,7 +144,7 @@
   --bs-primary-text-emphasis: rgb(151.2, 163.2, 235.8);
   --bs-secondary-text-emphasis: rgb(249, 154.2, 154.8);
   --bs-success-text-emphasis: rgb(117, 183, 152.4);
-  --bs-info-text-emphasis: rgb(109.8, 223.2, 246);
+  --bs-info-text-emphasis: rgb(243.6, 243.6, 243.6);
   --bs-warning-text-emphasis: rgb(255, 217.8, 106.2);
   --bs-danger-text-emphasis: rgb(234, 133.8, 143.4);
   --bs-light-text-emphasis: #f8f9fa;
@@ -152,7 +152,7 @@
   --bs-primary-bg-subtle: rgb(16.4, 20.4, 44.6);
   --bs-secondary-bg-subtle: rgb(49, 17.4, 17.6);
   --bs-success-bg-subtle: rgb(5, 27, 16.8);
-  --bs-info-bg-subtle: rgb(2.6, 40.4, 48);
+  --bs-info-bg-subtle: rgb(47.2, 47.2, 47.2);
   --bs-warning-bg-subtle: rgb(51, 38.6, 1.4);
   --bs-danger-bg-subtle: rgb(44, 10.6, 13.8);
   --bs-light-bg-subtle: #343a40;
@@ -160,7 +160,7 @@
   --bs-primary-border-subtle: rgb(49.2, 61.2, 133.8);
   --bs-secondary-border-subtle: rgb(147, 52.2, 52.8);
   --bs-success-border-subtle: rgb(15, 81, 50.4);
-  --bs-info-border-subtle: rgb(7.8, 121.2, 144);
+  --bs-info-border-subtle: rgb(141.6, 141.6, 141.6);
   --bs-warning-border-subtle: rgb(153, 115.8, 4.2);
   --bs-danger-border-subtle: rgb(132, 31.8, 41.4);
   --bs-light-border-subtle: #495057;
@@ -1972,13 +1972,13 @@ progress {
 
 .table-info {
   --bs-table-color: #000;
-  --bs-table-bg: rgb(206.6, 244.4, 252);
-  --bs-table-border-color: rgb(165.28, 195.52, 201.6);
-  --bs-table-striped-bg: rgb(196.27, 232.18, 239.4);
+  --bs-table-bg: rgb(251.2, 251.2, 251.2);
+  --bs-table-border-color: rgb(200.96, 200.96, 200.96);
+  --bs-table-striped-bg: rgb(238.64, 238.64, 238.64);
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: rgb(185.94, 219.96, 226.8);
+  --bs-table-active-bg: rgb(226.08, 226.08, 226.08);
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: rgb(191.105, 226.07, 233.1);
+  --bs-table-hover-bg: rgb(232.36, 232.36, 232.36);
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -3019,19 +3019,19 @@ textarea.form-control-lg {
 
 .btn-info {
   --bs-btn-color: #000;
-  --bs-btn-bg: #0dcaf0;
-  --bs-btn-border-color: #0dcaf0;
+  --bs-btn-bg: rgb(236, 236, 236);
+  --bs-btn-border-color: rgb(236, 236, 236);
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: rgb(49.3, 209.95, 242.25);
-  --bs-btn-hover-border-color: rgb(37.2, 207.3, 241.5);
-  --bs-btn-focus-shadow-rgb: 11, 172, 204;
+  --bs-btn-hover-bg: rgb(238.85, 238.85, 238.85);
+  --bs-btn-hover-border-color: rgb(237.9, 237.9, 237.9);
+  --bs-btn-focus-shadow-rgb: 201, 201, 201;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: rgb(61.4, 212.6, 243);
-  --bs-btn-active-border-color: rgb(37.2, 207.3, 241.5);
+  --bs-btn-active-bg: rgb(239.8, 239.8, 239.8);
+  --bs-btn-active-border-color: rgb(237.9, 237.9, 237.9);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #0dcaf0;
-  --bs-btn-disabled-border-color: #0dcaf0;
+  --bs-btn-disabled-bg: rgb(236, 236, 236);
+  --bs-btn-disabled-border-color: rgb(236, 236, 236);
 }
 
 .btn-warning {
@@ -3154,19 +3154,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-info {
-  --bs-btn-color: #0dcaf0;
-  --bs-btn-border-color: #0dcaf0;
+  --bs-btn-color: rgb(236, 236, 236);
+  --bs-btn-border-color: rgb(236, 236, 236);
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #0dcaf0;
-  --bs-btn-hover-border-color: #0dcaf0;
-  --bs-btn-focus-shadow-rgb: 13, 202, 240;
+  --bs-btn-hover-bg: rgb(236, 236, 236);
+  --bs-btn-hover-border-color: rgb(236, 236, 236);
+  --bs-btn-focus-shadow-rgb: 236, 236, 236;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #0dcaf0;
-  --bs-btn-active-border-color: #0dcaf0;
+  --bs-btn-active-bg: rgb(236, 236, 236);
+  --bs-btn-active-border-color: rgb(236, 236, 236);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #0dcaf0;
+  --bs-btn-disabled-color: rgb(236, 236, 236);
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #0dcaf0;
+  --bs-btn-disabled-border-color: rgb(236, 236, 236);
   --bs-gradient: none;
 }
 
@@ -6818,8 +6818,8 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(var(--bs-info-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
 .link-info:hover, .link-info:focus {
-  color: RGBA(61, 213, 243, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(61, 213, 243, var(--bs-link-underline-opacity, 1)) !important;
+  color: RGBA(240, 240, 240, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(240, 240, 240, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-warning {
@@ -11849,29 +11849,82 @@ body {
   background-color: #f8f9fa;
 }
 
-/*
-h1 {
-    color: $primary;
-    text-align: center;
-}*/
-.custom-py {
+h1, .h1 {
+  transform: scale(1.1);
+}
+
+h2, .h2 {
+  font-weight: bold;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.custom-p {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-  padding-left: 8rem;
-  padding-right: 8rem;
+}
+
+.p-width {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.p-features {
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+.p-left {
+  padding-left: 7rem;
+}
+
+.p-right {
+  padding-right: 7rem;
 }
 
 .text-custom {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+}
+
+.btn {
+  font-weight: bold;
+}
+
+.fs-button {
+  font-size: 0.9rem;
 }
 
 .btn-secondary {
   transition: all 0.1s ease-in-out;
+  border: 2px solid #f55758;
 }
 .btn-secondary:hover {
   background-color: transparent;
   color: #f55758 !important;
   border: 2px solid #f55758;
+}
+
+#imageSBM {
+  position: relative;
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+.background-box {
+  position: absolute;
+  top: 102%;
+  right: -100%;
+  left: auto;
+  transform: translateY(-100%);
+  width: 172%;
+  height: 72%;
+  background-color: #5266df;
+  border-top-left-radius: 180px;
+  border-bottom-left-radius: 170px;
+  z-index: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
