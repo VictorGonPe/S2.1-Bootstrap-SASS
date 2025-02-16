@@ -1,9 +1,8 @@
-// Importar Bootstrap (usa las variables personalizadas antes de importarlo)
 @import "variables"; 
-// Importar Bootstrap desde node_modules
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "buttons";
 @import "selector";
+
 
 // Estilos personalizados
 body {
@@ -16,7 +15,7 @@ h1 {
     //padding-left: 1.3rem;
 }
 
-h2, h5, .version {
+h2, h5 {
     font-weight: bold;
 }
 
@@ -31,12 +30,22 @@ h2, h5, .version {
 }
 
 .p-features {
+    max-width: 700px;
+    margin: auto;
     padding-left: 4.5rem;
     padding-right: 4.5rem;
+}
+.p-text-asked {
+    padding-left: 13rem;
+    padding-right: 13rem;
 }
 
 .p-left {
     padding-left: 7rem;
+}
+
+.p-left-book {
+    padding-left: 6.5rem;
 }
 
 .p-right{
@@ -49,6 +58,16 @@ h2, h5, .version {
     padding-left: 0.5rem;
     padding-right: 1.5rem;
 }
+
+
+.m-top-m {
+    margin-top: 2.5rem;
+}
+
+.m-top-l {
+    margin-top: 5rem;
+}
+
 
 .fs-button {
     font-size: 0.9rem;
@@ -66,7 +85,7 @@ h2, h5, .version {
 
 #imageBIOC {
     position: relative;
-    transform: scale(1);
+    transform: scale(1.03);
 }
 
 
@@ -88,10 +107,47 @@ h2, h5, .version {
     top: 117%;
     right: auto;
     left: -100%;
+    width: 188%; 
+    height: 88%; 
+    border-radius: 0%;
     border-top-right-radius: 180px; 
     border-bottom-right-radius: 170px; 
 }
 
 .version {
     color: darkgrey;
+}
+
+.card {
+    max-width: 18rem;
+    border: none;
+    background: linear-gradient(#f8f9fa,#ffffff);
+}
+
+#frequently, #download {
+    max-width: 550px;
+    width: 100%;
+    margin: auto;
+}
+#download {
+    max-width: 620px;
+}
+
+#bookmark {
+    max-width: 450px;
+}
+
+#menu2 {
+    margin: auto;;
+    padding-top: 2rem;
+    max-width: 750px;
+}
+
+#menu2 li:first-child{
+    padding-left: 35px;
+    padding-right: 78px;
+}
+
+#menu2 li:last-child{
+    padding-left: 115px;
 }

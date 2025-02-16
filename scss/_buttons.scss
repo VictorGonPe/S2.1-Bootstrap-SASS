@@ -27,13 +27,8 @@
     
     &:hover {
         background-color: transparent;
-        border: 2px solid $dark-grey;
+        border: 2px solid $grisOscuro;
     }
 }
 
-.title-item {
 
-    &.active h6 {
-        border-bottom: 4px solid rgb(255, 38, 0); // Solo el h6 activo tendrá el borde naranja
-    }
-}

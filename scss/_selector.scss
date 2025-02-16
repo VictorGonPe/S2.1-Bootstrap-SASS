@@ -1,7 +1,6 @@
 .selector-container {
     position: relative;
     width: 100%;
-    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -16,16 +15,16 @@
 }
 
 // Línea roja animada (se moverá con `hover`)
-.title-item {
+#nameSelector {
     position: relative;
     cursor: pointer;
     
-    h6 {
+    nav-link {
         font-size: 1rem;
         font-weight: bold;
         
         &:hover {
-            color: black; // Resaltar texto al hacer hover
+            color: rgb(155, 3, 8); // Resaltar texto al hacer hover
         }
     }
 
@@ -46,3 +45,12 @@
         width: 14rem; // La línea roja se expande en hover
     }
 }
+
+/*
+.title-item {
+
+    &.active h6 {
+        border-bottom: 4px solid rgb(255, 38, 0); // Solo el h6 activo tendrá el borde naranja
+    }
+}
+*/
