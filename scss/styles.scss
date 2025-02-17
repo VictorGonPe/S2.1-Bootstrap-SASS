@@ -2,12 +2,13 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "buttons";
 @import "selector";
+@import "accordion";
 
 
 // Estilos personalizados
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
 }
 
 h1 {
@@ -40,6 +41,10 @@ h2, h5 {
     padding-right: 13rem;
 }
 
+#aCleanText {
+    max-width: 450px;
+}
+
 .p-left {
     padding-left: 7rem;
 }
@@ -68,6 +73,9 @@ h2, h5 {
     margin-top: 5rem;
 }
 
+.m-bottom{
+    margin-bottom: 6rem;
+}
 
 .fs-button {
     font-size: 0.9rem;
@@ -100,7 +108,7 @@ h2, h5 {
     background-color: #5266df;
     border-top-left-radius: 180px; 
     border-bottom-left-radius: 170px; 
-    z-index: 0; //Permanece atras
+    z-index: 0;
 }
 
 #box-2 {
@@ -121,7 +129,6 @@ h2, h5 {
 .card {
     max-width: 18rem;
     border: none;
-    background: linear-gradient(#f8f9fa,#ffffff);
 }
 
 #frequently, #download {
@@ -129,6 +136,8 @@ h2, h5 {
     width: 100%;
     margin: auto;
 }
+
+
 #download {
     max-width: 620px;
 }
@@ -150,4 +159,18 @@ h2, h5 {
 
 #menu2 li:last-child{
     padding-left: 115px;
+}
+
+footer {
+    color: white;
+    background-color: $primary;
+}
+
+footer h2 {
+    max-width: 400px;
+    margin: auto;
+}
+
+footer input {
+    flex-basis: 50%;
 }

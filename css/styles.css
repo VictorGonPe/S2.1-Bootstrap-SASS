@@ -11853,7 +11853,7 @@ textarea.form-control-lg {
   border: 2px solid #f55758;
 }
 .btn-secondary:hover {
-  background-color: transparent;
+  background-color: white;
   color: #f55758 !important;
   border: 2px solid #f55758;
 }
@@ -11927,9 +11927,37 @@ textarea.form-control-lg {
     }
 }
 */
+#accordionFrequently {
+  margin: auto;
+  max-width: 550px;
+}
+
+.text-justify {
+  text-align: justify;
+  padding: 20px 0px;
+}
+
+.accordion-body {
+  color: #616161;
+}
+
+.accordion-button {
+  padding-left: 0%;
+}
+.accordion-button:hover {
+  color: red;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: inherit;
+}
+
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
 }
 
 h1, .h1 {
@@ -11962,6 +11990,10 @@ h2, .h2, h5, .h5 {
   padding-right: 13rem;
 }
 
+#aCleanText {
+  max-width: 450px;
+}
+
 .p-left {
   padding-left: 7rem;
 }
@@ -11987,6 +12019,10 @@ h2, .h2, h5, .h5 {
 
 .m-top-l {
   margin-top: 5rem;
+}
+
+.m-bottom {
+  margin-bottom: 6rem;
 }
 
 .fs-button {
@@ -12039,7 +12075,6 @@ h2, .h2, h5, .h5 {
 .card {
   max-width: 18rem;
   border: none;
-  background: linear-gradient(#f8f9fa, #ffffff);
 }
 
 #frequently, #download {
@@ -12069,6 +12104,20 @@ h2, .h2, h5, .h5 {
 
 #menu2 li:last-child {
   padding-left: 115px;
+}
+
+footer {
+  color: white;
+  background-color: #5266df;
+}
+
+footer h2, footer .h2 {
+  max-width: 400px;
+  margin: auto;
+}
+
+footer input {
+  flex-basis: 50%;
 }
 
 /*# sourceMappingURL=styles.css.map */

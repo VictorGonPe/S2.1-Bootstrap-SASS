@@ -1,0 +1,27 @@
+#accordionFrequently {
+    margin: auto;
+    max-width: 550px;
+}
+
+.text-justify { //Accordion
+    text-align: justify;
+    padding: 20px 0px;
+}
+
+.accordion-body {
+    color: $grisOscuro;
+}
+
+.accordion-button {
+    padding-left: 0%;
+    &:hover {
+        color: red;
+    }
+    &:focus {
+       box-shadow: none ;  // Quita el contorno azul
+    }
+    &:not(.collapsed) {
+        background-color: transparent;  // Evita el cambio de color al hacer clic
+        color: inherit; // Mantiene el color del texto original
+    }
+}
