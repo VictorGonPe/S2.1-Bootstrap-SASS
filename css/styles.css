@@ -11955,6 +11955,20 @@ textarea.form-control-lg {
   color: inherit;
 }
 
+.accordion-button::after {
+  content: "";
+  display: inline-block;
+  background-image: url("../img/icon-arrow.svg"); /* Ruta relativa ajustada */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: auto; /* Asegura que la imagen se alinee a la derecha */
+  transition: background-image 0.3s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../img/icon-close.svg"); /* Imagen roja */
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
