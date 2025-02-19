@@ -12157,6 +12157,14 @@ footer section:last-child {
   position: absolute;
 }
 
+.icon-footer svg path:hover {
+  fill: #FA5959;
+}
+
+footer .logo path {
+  fill: white;
+}
+
 footer section:last-child .container {
   max-width: 90%;
 }
@@ -12164,5 +12172,27 @@ footer section:last-child .container {
 footer a:hover, .nav-link:hover {
   color: var(--bs-secondary) !important;
 }
+
+/*
+.email-input {
+    &:invalid {
+        border: 2px solid red !important;
+        background-color: rgba(255, 0, 0, 0.1);
+    }
+
+    &:valid {
+        border: 2px solid green !important;
+        background-color: rgba(0, 255, 0, 0.1);
+    }
+}
+
+// Estilos para el mensaje de error
+.invalid-feedback {
+    display: block; // Se mostrará cuando el input sea inválido
+    color: red;
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+*/
 
 /*# sourceMappingURL=styles.css.map */
