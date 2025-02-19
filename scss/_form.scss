@@ -1,0 +1,24 @@
+.email-input {
+    z-index: 1;
+    display: block;
+    width: 100%; /* Se asegura de que el input use todo el ancho disponible */
+
+    &:invalid {
+        border: 2px solid red;
+    }
+
+    &:valid {
+        border: 2px solid green;
+    }
+}
+
+.invalid-tooltip {
+    position: absolute;
+    z-index: 0;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    color: red;
+    font-size: 0.9rem;
+}
+
