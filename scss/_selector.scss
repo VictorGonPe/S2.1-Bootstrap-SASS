@@ -2,17 +2,6 @@
     position: relative;
     width: 100%;
     margin: 0 auto;
-}
-
-.selector-container2 {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-}
-
-
-#menu3 {
-    margin: auto;
     padding-top: 2rem;
     max-width: 100%;
 }
@@ -28,7 +17,7 @@
 .underline {
     margin: auto;
     left: 0;
-    max-width: 750px;
+    max-width: 700px;
     height: 1px;
     background-color: #ccc; // Línea gris
 }
@@ -39,9 +28,9 @@
     cursor: pointer;
     
     nav-link {
-        font-size: 1rem;
+        font-size: 2rem;
         font-weight: bold;
-        
+        color: black;
         &:hover {
             color: rgb(155, 3, 8); // Resaltar texto al hacer hover
         }
@@ -60,21 +49,13 @@
         z-index: 1;
     }
 
-    &:hover::after {
-        width: 14rem; // La línea roja se expande en hover
+    &:focus::after {
+        width: 14rem;
     }
 }
 
 .nav-pills .nav-link.active {
     background-color: transparent !important;
-    font-weight: bold;
     color: black;
+    font-weight: bold;  
 } 
-/*
-.title-item {
-
-    &.active h6 {
-        border-bottom: 4px solid rgb(255, 38, 0); // Solo el h6 activo tendrá el borde naranja
-    }
-}
-*/

@@ -1,7 +1,7 @@
 .email-input {
     z-index: 1;
     display: block;
-    width: 100%; /* Se asegura de que el input use todo el ancho disponible */
+    width: 100%; 
 
     &:invalid {
         border: 2px solid red;

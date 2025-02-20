@@ -11881,16 +11881,6 @@ textarea.form-control-lg {
   position: relative;
   width: 100%;
   margin: 0 auto;
-}
-
-.selector-container2 {
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
-}
-
-#menu3 {
-  margin: auto;
   padding-top: 2rem;
   max-width: 100%;
 }
@@ -11904,7 +11894,7 @@ textarea.form-control-lg {
 .underline {
   margin: auto;
   left: 0;
-  max-width: 750px;
+  max-width: 700px;
   height: 1px;
   background-color: #ccc;
 }
@@ -11914,8 +11904,9 @@ textarea.form-control-lg {
   cursor: pointer;
 }
 .nav-pills .nav-link nav-link {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: bold;
+  color: black;
 }
 .nav-pills .nav-link nav-link:hover {
   color: rgb(155, 3, 8);
@@ -11932,24 +11923,16 @@ textarea.form-control-lg {
   transform: translateX(-50%);
   z-index: 1;
 }
-.nav-pills .nav-link:hover::after {
+.nav-pills .nav-link:focus::after {
   width: 14rem;
 }
 
 .nav-pills .nav-link.active {
   background-color: transparent !important;
-  font-weight: bold;
   color: black;
+  font-weight: bold;
 }
 
-/*
-.title-item {
-
-    &.active h6 {
-        border-bottom: 4px solid rgb(255, 38, 0); // Solo el h6 activo tendrá el borde naranja
-    }
-}
-*/
 #accordionFrequently {
   margin: auto;
   max-width: 550px;
@@ -11995,7 +11978,7 @@ textarea.form-control-lg {
 .email-input {
   z-index: 1;
   display: block;
-  width: 100%; /* Se asegura de que el input use todo el ancho disponible */
+  width: 100%;
 }
 .email-input:invalid {
   border: 2px solid red;
@@ -12018,6 +12001,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
   overflow-x: hidden;
+  width: 100%;
 }
 
 h1, .h1 {
