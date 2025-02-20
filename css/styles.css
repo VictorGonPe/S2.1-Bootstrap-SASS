@@ -11902,29 +11902,28 @@ textarea.form-control-lg {
 }
 
 .underline {
-  position: absolute;
-  bottom: 0;
+  margin: auto;
   left: 0;
-  width: 100%;
+  max-width: 750px;
   height: 1px;
   background-color: #ccc;
 }
 
-.nameSelector {
+.nav-pills .nav-link {
   position: relative;
   cursor: pointer;
 }
-.nameSelector nav-link {
+.nav-pills .nav-link nav-link {
   font-size: 1rem;
   font-weight: bold;
 }
-.nameSelector nav-link:hover {
+.nav-pills .nav-link nav-link:hover {
   color: rgb(155, 3, 8);
 }
-.nameSelector::after {
+.nav-pills .nav-link::after {
   content: "";
   position: absolute;
-  bottom: -25px;
+  bottom: -18px;
   left: 50%;
   width: 0%;
   height: 3px;
@@ -11933,8 +11932,14 @@ textarea.form-control-lg {
   transform: translateX(-50%);
   z-index: 1;
 }
-.nameSelector:hover::after {
+.nav-pills .nav-link:hover::after {
   width: 14rem;
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent !important;
+  font-weight: bold;
+  color: black;
 }
 
 /*
