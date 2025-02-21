@@ -23,10 +23,10 @@ h2, h5 {
 }
 
 .nav-link {
-    color: black ;
+    color: black;
     &:active,
     &:focus {
-        color: black !important;
+        color: black;
         font-weight: bold !important;
         background-color: transparent !important;
         outline: none !important;
@@ -109,13 +109,18 @@ h2, h5 {
     transform: scale(1.03);
 }
 
+.imagenAnclada {
+    max-width: 650px;
+    max-height: 384px;
+}
+
 
 .background-box {
     position:  absolute;
     top: 102%;
     right: -130%;
     left: auto;
-    transform: translateY(-100%);
+    transform: translateY(-102%);
     width: 200%; 
     height: 72%; 
     background-color: #5266df;
@@ -124,7 +129,7 @@ h2, h5 {
     z-index: 0;
 }
 
-#box-2 {
+.box2 {
     
     top: 117%;
     right: auto;
@@ -134,6 +139,7 @@ h2, h5 {
     border-radius: 0%;
     border-top-right-radius: 180px; 
     border-bottom-right-radius: 170px; 
+    max-height: 342px;
     
 }
 
@@ -145,8 +151,6 @@ h2, h5 {
     max-width: 17rem;
     border: none;
 }
-
-
 
 #frequently, #download {
     max-width: 550px;
@@ -165,7 +169,7 @@ h2, h5 {
 
 
 footer {
-    color: white;
+    color: white !important;
     background-color: $primary;
 }
 

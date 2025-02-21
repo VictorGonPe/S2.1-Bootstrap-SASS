@@ -3,34 +3,37 @@
     width: 100%;
     margin: 0 auto;
     padding-top: 2rem;
-    max-width: 100%;
+    //max-width: 100%;
 }
 
-.menu2 {
+.nav-pills {
     margin: auto;
     padding-top: 2rem;
     max-width: 750px;
 }
 
+.nav-container {   
+    width: 239px;
+}
 
 // Línea gris
 .underline {
     margin: auto;
-    left: 0;
-    max-width: 700px;
+    width: 100%;
     height: 1px;
     background-color: #ccc; // Línea gris
 }
 
 // Línea roja animada (se moverá con `hover`)
 .nav-pills .nav-link {
+    color: black !important;
     position: relative;
+    width: 100%;
     cursor: pointer;
     
     nav-link {
         font-size: 2rem;
         font-weight: bold;
-        color: black;
         &:hover {
             color: rgb(155, 3, 8); // Resaltar texto al hacer hover
         }
@@ -50,12 +53,14 @@
     }
 
     &:focus::after {
-        width: 14rem;
+        width: 14.8rem;
     }
 }
 
 .nav-pills .nav-link.active {
     background-color: transparent !important;
-    color: black;
     font-weight: bold;  
+    &::after {
+        width: 14.8rem;
+    }
 } 
