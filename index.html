@@ -15,7 +15,7 @@
               <img src="img/logo-bookmark.svg" alt="Logo" width="150">
           </div>
 
-          <nav>
+          <nav class="collapse navbar-collapse d-lg-flex justify-content-end" id="menuMobile">
               <ul class="nav text-custom gap-4" id="menu">
                   <li class="nav-item px-1"><a href="#" class="nav-link">FEATURES</a></li>
                   <li class="nav-item px-1"><a href="#" class="nav-link">PRICING</a></li>
@@ -25,7 +25,40 @@
                   </li>
               </ul>
           </nav>
+
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile" aria-controls="menuMobile" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="img/icon-hamburger.svg" alt="Menú" width="30">
+          </button>
       </div>
+
+      <div class="collapse fullscreen-menu d-lg-none" id="fullscreenMenu">
+        <div class="menu-content">
+            <!-- Header del menú con logo y botón de cerrar -->
+            <div class="menu-header d-flex justify-content-between align-items-center">
+                <img src="img/logo-bookmark.svg" alt="Logo" class="logo-menu">
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#fullscreenMenu">
+                    <img src="img/icon-hamburger.svg" alt="Cerrar" width="30">
+                </button>
+            </div>
+
+            <!-- Links del menú en columna -->
+            <ul class="menu-links nav flex-column text-center">
+                <li class="nav-item"><a class="nav-link" href="#">FEATURES</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">PRICING</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+                <li class="nav-item">
+                  <a href="#" class="btn btn-secondary text-white fs-button p-4 py-2 shadow">LOGIN</a>
+              </li>
+            </ul>
+
+            <!-- Iconos de redes sociales anclados abajo -->
+            <div class="social-icons d-flex justify-content-center gap-4">
+                <a href="#"><img src="img/icon-facebook.svg" alt="Facebook" width="25"></a>
+                <a href="#"><img src="img/icon-twitter.svg" alt="Twitter" width="25"></a>
+            </div>
+        </div>
+    </div>
+
     </header>
 
     <main>

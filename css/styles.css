@@ -11938,6 +11938,37 @@ textarea.form-control-lg {
   width: 14.8rem;
 }
 
+@media screen and (max-width: 768px) {
+  #pills-tab {
+    justify-content: center;
+  }
+  .nav-pills .nav-link:focus::after {
+    width: 9rem;
+  }
+  .nav-pills .nav-link.active {
+    background-color: transparent !important;
+    font-weight: bold;
+  }
+  .nav-pills .nav-link.active::after {
+    width: 10rem;
+  }
+  #pills-home-tab {
+    padding-top: 1.5rem;
+  }
+  .lineUp {
+    border-top: 1px solid #ccc;
+  }
+  .nav-container {
+    width: 300px;
+    margin-top: 0px !important;
+  }
+  .underline {
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+  }
+}
 #accordionFrequently {
   margin: auto;
   max-width: 550px;
@@ -11999,6 +12030,66 @@ textarea.form-control-lg {
   font-size: 0.9rem;
 }
 
+@media screen and (max-width: 768px) {
+  .fullscreen-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo oscuro con opacidad */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1050; /* Asegura que esté sobre otros elementos */
+  }
+  /* 🔹 Contenedor del contenido del menú */
+  .menu-content {
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+  }
+  /* 🔹 Header del menú (logo + botón de cerrar) */
+  .menu-header {
+    width: 100%;
+    padding: 20px;
+  }
+  /* 🔹 Logo dentro del menú */
+  .logo-menu {
+    width: 150px;
+  }
+  /* 🔹 Links del menú */
+  .menu-links {
+    list-style: none;
+    padding: 0;
+  }
+  .menu-links .nav-link {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s;
+  }
+  .menu-links .nav-link:hover {
+    color: #5266df;
+  }
+  /* 🔹 Iconos de redes sociales anclados abajo */
+  .social-icons {
+    padding-bottom: 20px;
+  }
+  .social-icons a img {
+    filter: invert(1);
+    transition: transform 0.3s;
+  }
+  .social-icons a:hover img {
+    transform: scale(1.2);
+  }
+}
 body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
@@ -12207,35 +12298,6 @@ footer a:hover, .nav-link:hover {
   .p-left, .p-left-book, .p-right {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-  #pills-tab {
-    justify-content: center;
-  }
-  .nav-pills .nav-link:focus::after {
-    width: 9rem;
-  }
-  .nav-pills .nav-link.active {
-    background-color: transparent !important;
-    font-weight: bold;
-  }
-  .nav-pills .nav-link.active::after {
-    width: 10rem;
-  }
-  #pills-home-tab {
-    padding-top: 1.5rem;
-  }
-  .lineUp {
-    border-top: 1px solid #ccc;
-  }
-  .nav-container {
-    width: 300px;
-    margin-top: 0px !important;
-  }
-  .underline {
-    margin: auto;
-    width: 100%;
-    height: 1px;
-    background-color: #ccc;
   }
 }
 

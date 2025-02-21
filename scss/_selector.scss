@@ -61,3 +61,46 @@
         width: 14.8rem;
     }
 } 
+
+
+@media screen and (max-width: 768px) {
+    
+    #pills-tab {
+       justify-content: center;
+    }
+
+    .nav-pills .nav-link {
+        &:focus::after {
+            width: 9rem;
+        }
+    }
+
+    .nav-pills .nav-link.active {
+        background-color: transparent !important;
+        font-weight: bold;  
+        &::after {
+            width: 10rem;
+        }
+    } 
+
+    #pills-home-tab {
+        padding-top: $spacer * 1.5;
+    }
+
+    .lineUp {
+        border-top: 1px solid #ccc;
+    }
+
+    .nav-container {   
+        width: 300px;
+        margin-top: 0px !important;
+    }
+    
+    .underline {
+        margin: auto;
+        width: 100%;
+        height: 1px;
+        background-color: #ccc;
+    }
+
+}
