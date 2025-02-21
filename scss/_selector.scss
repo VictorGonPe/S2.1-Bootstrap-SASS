@@ -3,7 +3,6 @@
     width: 100%;
     margin: 0 auto;
     padding-top: 2rem;
-    //max-width: 100%;
 }
 
 .nav-pills {
@@ -16,15 +15,13 @@
     width: 239px;
 }
 
-// Línea gris
 .underline {
     margin: auto;
     width: 100%;
     height: 1px;
-    background-color: #ccc; // Línea gris
+    background-color: #ccc; 
 }
 
-// Línea roja animada (se moverá con `hover`)
 .nav-pills .nav-link {
     color: black !important;
     position: relative;
@@ -35,7 +32,7 @@
         font-size: 2rem;
         font-weight: bold;
         &:hover {
-            color: rgb(155, 3, 8); // Resaltar texto al hacer hover
+            color: rgb(155, 3, 8); 
         }
     }
 
@@ -43,8 +40,8 @@
         content: "";
         position: absolute;
         bottom: -18px; 
-        left: 50%; //Centro
-        width: 0%; //Sin línea
+        left: 50%; 
+        width: 0%; 
         height: 3px;
         background-color: red;
         transition: all 0.5s ease-in-out;
