@@ -7,7 +7,6 @@
 @import "menuToggler";
 
 
-// Estilos personalizados
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
@@ -226,4 +225,33 @@ footer a:hover, .nav-link:hover {
         padding-left: 1rem;
         padding-right: 1rem;
     }
+
+    .changeFirstDiv {
+        order: 2;
+        padding-top: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+    }
+
+    .imagenAnclada {
+        padding-top: 6rem;
+
+    }
+    .imagenAnclada * {
+        text-align: center !important;    
+    }
+
+    #accordionFrequently {
+        padding:0rem 2rem 0rem 2rem;
+    }
+
+    .sectionTwo * {
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+
+
+
 }

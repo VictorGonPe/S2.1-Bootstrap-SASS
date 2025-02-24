@@ -9,13 +9,13 @@
     }
 }
 
-.invalid-tooltip {
-    position: absolute;
+.invalid-feedback {
     z-index: 0;
-    top: 80%;
-    left: 0;
-    width: 100%;
-    color: red;
-    font-size: 0.9rem;
+    padding: 5px;
+    height: 30px;
+    background-color: $secondary !important;
+    font-size: 0.8rem;
+    margin-top: -5px;
+    margin-bottom: 5px;
 }
 
