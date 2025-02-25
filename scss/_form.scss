@@ -7,6 +7,11 @@
         border: 2px solid green;
 
     }
+
+}
+
+.email-input:invalid::placeholder {
+    content: "example@email/com";
 }
 
 .invalid-feedback {
