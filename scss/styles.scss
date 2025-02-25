@@ -7,10 +7,10 @@
 @import "menuToggler";
 
 
-body {
+html, body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     width: 100%;
 }
 
@@ -209,8 +209,7 @@ footer section:last-child .container {
 footer a:hover, .nav-link:hover {
     color: var(--bs-secondary) !important;
 }
-
-
+/*__________________________________________MOVIL___________________________________________*/
 @media screen and (max-width: 768px) {
     .p-width {
         padding-left: 1rem;
