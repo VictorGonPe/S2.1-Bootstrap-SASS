@@ -13408,7 +13408,7 @@ footer section:last-child {
   position: absolute;
 }
 
-.icon-footer svg path:hover {
+.icon-footer svg path:hover, .social-icons a svg path:hover {
   fill: #FA5959;
 }
 
@@ -13420,7 +13420,7 @@ footer section:last-child .container {
   max-width: 90%;
 }
 
-footer a:hover, .nav-link:hover {
+header a:hover, footer a:hover, .nav-link:hover {
   color: var(--bs-secondary) !important;
 }
 
